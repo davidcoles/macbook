@@ -9,7 +9,10 @@
       - git
 
 
- - name: Installing Homebrew Cask Packages
-      homebrew_cask:
-        name:
-          - iterm2
+  tasks:
+    
+    - name: Updating Homebrew
+      homebrew:
+        update_homebrew: true
+      when: homebrew_check.stat.exists
+
