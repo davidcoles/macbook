@@ -2,12 +2,6 @@
 - name: Install MacOS Packages
   hosts: localhost
   become: false
-  vars:
-    brew_cask_packages:
-      - iterm2
-    brew_packages:      
-      - git
-
 
   tasks:
     
@@ -28,5 +22,6 @@
           - ansible
           - emacs
           - gnupg
+          - terraform
         state: present
         
