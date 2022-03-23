@@ -23,5 +23,6 @@
           - emacs
           - gnupg
           - terraform
+          - golang
         state: present
         
