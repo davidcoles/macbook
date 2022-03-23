@@ -4,4 +4,6 @@
   become: false
   vars:
     brew_cask_packages:
+      - iterm2
+    brew_packages:      
       - git
