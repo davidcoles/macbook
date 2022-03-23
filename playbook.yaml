@@ -7,3 +7,9 @@
       - iterm2
     brew_packages:      
       - git
+
+
+ - name: Installing Homebrew Cask Packages
+      homebrew_cask:
+        name:
+          - iterm2
