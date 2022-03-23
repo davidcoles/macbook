@@ -21,7 +21,7 @@
           - iterm2
         state: present
 
-  - name: Installing Homebrew Packages
+    - name: Installing Homebrew Packages
       homebrew:
         name:
           - git
