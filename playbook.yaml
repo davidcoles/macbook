@@ -20,3 +20,13 @@
         name:
           - iterm2
         state: present
+
+  - name: Installing Homebrew Packages
+      homebrew:
+        name:
+          - git
+          - ansible
+          - emacs
+          - gnupg
+        state: present
+        
