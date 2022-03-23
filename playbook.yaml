@@ -15,4 +15,8 @@
       homebrew:
         update_homebrew: true
 
-
+    - name: Installing Homebrew Cask Packages
+      homebrew_cask:
+        name:
+          - iterm2
+        state: present
