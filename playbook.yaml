@@ -24,5 +24,6 @@
           - gnupg
           - terraform
           - golang
+          - mplayer
         state: present
         
